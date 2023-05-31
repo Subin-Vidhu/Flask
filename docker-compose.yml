@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  flaskudemy:
+    image: flaskudemy
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
